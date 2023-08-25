@@ -1,6 +1,6 @@
 export const BigButton = ({ className, href, children }) => (
   <a
-    className="flex rounded-full bg-cyan-800/90 text-sm font-medium text-zinc-200 ring-cyan/10 relative px-10 py-5 transition hover:text-cyan-400 shadow-xl"
+    className="text-xl flex rounded-full bg-cyan-800/90 font-medium text-zinc-200 ring-cyan/10 relative px-10 py-5 transition hover:text-cyan-400 shadow-xl items-center"
     href={href}
   >
     {children}
@@ -8,7 +8,7 @@ export const BigButton = ({ className, href, children }) => (
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       fill="currentColor"
-      className="ml-1 w-5 h-5"
+      className="ml-4 w-5 h-5"
     >
       <path
         fillRule="evenodd"

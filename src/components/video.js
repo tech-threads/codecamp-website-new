@@ -1,8 +1,10 @@
 import React from "react";
 
-const Video = ({ videoId }) => {
+export const Video = ({ videoId, className }) => {
   return (
-    <div className="relative w-full rounded-2xl justify-center flex">
+    <div
+      className={`relative w-full rounded-2xl justify-center flex ${className}`}
+    >
       <iframe
         src={`https://www.youtube.com/embed/${videoId}?controls=0`}
         title="YouTube video player"
@@ -13,5 +15,3 @@ const Video = ({ videoId }) => {
     </div>
   );
 };
-
-export default Video;

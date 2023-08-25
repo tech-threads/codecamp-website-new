@@ -1,9 +1,10 @@
 import { Fragment } from "react";
 import { BigButton } from "@/components/big-button";
+import { Subtitle } from "@/components/subtitle";
 
 export const Hero = ({ headline, subtitle, ctaLink, ctaText }) => {
   return (
-    <div className="px-20 flex flex-col items-center justify-center py-40">
+    <div className="px-20 flex flex-col items-center justify-center pt-40 pb-20">
       <h1 className="text-5xl leading-tight font-medium mb-4 text-center font-mono">
         {headline.split(" ").map((word, index, arr) => (
           <Fragment key={index}>
@@ -28,7 +29,7 @@ export const Hero = ({ headline, subtitle, ctaLink, ctaText }) => {
           }}
         ></span>
       </h1>
-      <h2 className="px-20 opacity-60 text-2xl mb-8 text-center">{subtitle}</h2>
+      <Subtitle>{subtitle}</Subtitle>
 
       <BigButton href={ctaLink}>{ctaText}</BigButton>
     </div>
