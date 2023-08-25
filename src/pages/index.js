@@ -32,13 +32,13 @@ export default function Home() {
             <PhotoReel className="mb-20 mt-20" />
             <Section sectionTitle="What is CodeCamp?" className="mb-20">
               <p className="mb-4">
-                CodeCamp is Southern Utah's oldest and biggest coding, design,
-                and maker event. For over 14 years running, we've been bringing
-                together coders, designers, and makers of all ages and skill
-                levels to learn, build, and create. CodeCamp started as a small
-                gathering of coders but has grown into a series of events and a
-                nonprofit organization devoted to supporting local computer
-                science outreach and education.
+                CodeCamp is Southern Utah&apos;s oldest and biggest coding,
+                design, and maker event. For over 14 years running, we&apos;ve
+                been bringing together coders, designers, and makers of all ages
+                and skill levels to learn, build, and create. CodeCamp started
+                as a small gathering of coders but has grown into a series of
+                events and a nonprofit organization devoted to supporting local
+                computer science outreach and education.
               </p>
               <p className="mb-4">
                 Our main event is a 24-hour hackathon where participants compete

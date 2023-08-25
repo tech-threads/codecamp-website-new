@@ -200,8 +200,9 @@ export default function Rules() {
                 not required. Pizza and drinks are provided.
               </p>
               <p className="mb-4">
-                This year's Preflight Meeting is being held on November XXth at
-                7:00pm in the Vasion gym — the same venue as the main event.
+                This year&apos;s Preflight Meeting is being held on November
+                XXth at 7:00pm in the Vasion gym — the same venue as the main
+                event.
               </p>
               <p className="flex flex-row">
                 <a href="#" className="mr-8">
@@ -228,10 +229,10 @@ export default function Rules() {
               <p className="mb-4">
                 Libraries, plugins, artwork and other assets that are public and
                 freely available are allowed to be included in apps. Please list
-                all libraries that you use on your team's profile page to give
-                credit where it's due. Stock photos and free icon sets are
-                allowed. Paying for something that is not generally available to
-                everyone is not allowed, and not nice.
+                all libraries that you use on your team&apos;s profile page to
+                give credit where it&apos;s due. Stock photos and free icon sets
+                are allowed. Paying for something that is not generally
+                available to everyone is not allowed, and not nice.
               </p>
               <p className="mb-4">
                 Developing a library in secret before the competition that
@@ -254,7 +255,7 @@ export default function Rules() {
               <p className="mb-4">
                 The code you write is yours. If you intend to share it after the
                 competition, you can pick whatever license you love. We
-                encourage contestants to open source their code, but it’s
+                encourage contestants to open source their code, but it&apos;s
                 totally up to you. If you want to start a business based on it,
                 awesome.
               </p>
