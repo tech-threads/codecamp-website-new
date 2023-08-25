@@ -22,7 +22,7 @@ export default function Volunteers() {
               ctaLink="asdfasdF"
               ctaText="Sign up to volunteer"
             />
-            <Video videoId="PdEHEwCyHXk" className="mb-20" />
+            <PhotoReel className="mb-20 mt-20" />
           </div>
         </div>
       </div>

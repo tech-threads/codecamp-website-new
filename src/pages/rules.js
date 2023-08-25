@@ -338,10 +338,10 @@ export default function Rules() {
             </Section>
             <Section sectionTitle="Media" className="mb-20">
               <p className="mb-4">
-                We will have photographers and videographers at the event. Part
-                of your registration includes a media release. This is so we can
-                use and photos or videos taken during the event to promote
-                CodeCamp.
+                We will have photographers, videographers, and possibly press at
+                the event. Part of your registration includes a media release -
+                this is so we can use and photos or videos taken during the
+                event to promote CodeCamp.
               </p>
             </Section>
           </div>
