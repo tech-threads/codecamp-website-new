@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./synthwave-mtn.css");
+
+@layer base {
+  html {
+    font-family: "IBM Plex Sans", system-ui, sans-serif;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +32,43 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.typed-cursor {
+  opacity: 1;
+  animation: typedjsBlink 1s infinite;
+}
+
+@keyframes typedjsBlink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes typedjsBlink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.typed-fade-out {
+  opacity: 0;
+  transition: opacity 0.25s;
+  -webkit-animation: 0;
+  animation: 0;
+}
+
+.retrowave-bg {
+  background-image: url("/retrowave.jpeg");
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
