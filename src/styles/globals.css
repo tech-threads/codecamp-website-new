@@ -92,5 +92,6 @@ p a svg {
 
 p a:hover svg {
   margin-left: 3px;
+  margin-right: -3px
 }
 
