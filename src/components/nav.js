@@ -12,7 +12,7 @@ export const Nav = () => (
         <Image src={logo} alt="Logo" height={32} />
       </Link>
     </div>
-    <nav className="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 mx-auto h-9">
+    <nav className="flex rounded-full bg-zinc-800/90 px-3 text-sm font-medium text-zinc-200 ring-1 ring-white/10 mx-auto h-9">
       <Link
         className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
         href="/"
@@ -20,25 +20,25 @@ export const Nav = () => (
         About
       </Link>
       <Link
-        className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+        className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
         href="/rules"
       >
         Rules
       </Link>
       <Link
-        className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+        className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
         href="/volunteers"
       >
         Volunteers
       </Link>
       <Link
-        className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+        className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
         href="/sponsors"
       >
         Sponsors
       </Link>
       <a
-        className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+        className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
         href="#"
       >
         Blog
