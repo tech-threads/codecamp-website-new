@@ -24,7 +24,7 @@
 }
 
 .mtn {
-  height: 100vh;
+  height: 50px;
 }
 .mtn::before {
   content: "";

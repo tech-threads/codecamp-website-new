@@ -15,7 +15,7 @@ export default function Home() {
         <div className="inset-0 flex justify-center sm:px-8">
           <div className="mx-24 pt-8 px-8 w-full bg-white ring-1 ring-zinc-100 dark:bg-zinc-900 dark:ring-zinc-300/20">
             <TimerBanner targetDate={new Date("November 18, 2023")} />
-            <header className="flex justify-center items-center h-9">
+            <header className="flex justify-center items-center">
               <div
                 className="flex justify-center h-9"
                 style={{ marginRight: -44 }}

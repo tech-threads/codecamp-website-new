@@ -1,6 +1,6 @@
 export const Button = ({ className, href, children }) => (
   <a
-    className="flex rounded-full bg-teal-500/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-teal-800/5 ring-1 ring-teal-900/5 backdrop-blur dark:bg-teal-800/90 dark:text-zinc-200 dark:ring-teal/10 relative py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+    className="flex rounded-full bg-cyan-500/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-cyan-800/5 ring-1 ring-cyan-900/5 backdrop-blur dark:bg-cyan-800/90 dark:text-zinc-200 dark:ring-cyan/10 relative py-2 transition hover:text-cyan-500 dark:hover:text-cyan-400 h-9"
     href={href}
   >
     {children}

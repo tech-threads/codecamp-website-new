@@ -1,6 +1,6 @@
 export const BigButton = ({ className, href, children }) => (
   <a
-    className="flex rounded-full bg-teal-500/90 text-sm font-medium text-zinc-800 shadow-lg shadow-teal-800/5 ring-1 ring-teal-900/5 backdrop-blur dark:bg-teal-800/90 dark:text-zinc-200 dark:ring-teal/10 relative px-10 py-5 transition hover:text-teal-500 dark:hover:text-teal-400"
+    className="flex rounded-full bg-cyan-800/90 text-sm font-medium text-zinc-200 ring-cyan/10 relative px-10 py-5 transition hover:text-cyan-400 shadow-xl"
     href={href}
   >
     {children}
