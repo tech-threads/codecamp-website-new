@@ -49,7 +49,7 @@ export const TimerBanner = ({ targetDate }) => {
       <svg
         viewBox="0 0 1140 34"
         fill="none"
-        class="absolute bottom-[-67px] left-1/2 ml-[-553px] w-[1130px] z-10"
+        className="absolute bottom-[-67px] left-1/2 ml-[-553px] w-[1130px] z-10"
       >
         <g opacity=".6" filter="url(#:R5l6:-a)">
           <path fill="url(#:R5l6:-b)" d="M6 6h1128v22H6z"></path>
@@ -64,8 +64,8 @@ export const TimerBanner = ({ targetDate }) => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="matrix(0 -22 1128 0 563 28)"
           >
-            <stop offset=".273" stop-color="#18181b"></stop>
-            <stop offset="1" stop-color="#18181b" stop-opacity="0"></stop>
+            <stop offset=".273" stopColor="#18181b"></stop>
+            <stop offset="1" stopColor="#18181b" stopOpacity="0"></stop>
           </radialGradient>
           <linearGradient
             id=":R5l6:-b"
@@ -75,10 +75,10 @@ export const TimerBanner = ({ targetDate }) => {
             y2="6"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#06B6D4" stop-opacity="0"></stop>
-            <stop offset=".323" stop-color="#06B6D4"></stop>
-            <stop offset=".672" stop-color="#D946A2" stop-opacity=".3"></stop>
-            <stop offset="1" stop-color="#D946A2" stop-opacity="0"></stop>
+            <stop stopColor="#06B6D4" stopOpacity="0"></stop>
+            <stop offset=".323" stopColor="#06B6D4"></stop>
+            <stop offset=".672" stopColor="#D946A2" stopOpacity=".3"></stop>
+            <stop offset="1" stopColor="#D946A2" stopOpacity="0"></stop>
           </linearGradient>
           <filter
             id=":R5l6:-a"
@@ -87,9 +87,9 @@ export const TimerBanner = ({ targetDate }) => {
             width="1140"
             height="34"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
             <feBlend
               in="SourceGraphic"
               in2="BackgroundImageFix"

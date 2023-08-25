@@ -7,6 +7,7 @@ import { Video } from "@/components/video";
 import { TimerBanner } from "@/components/timer-banner";
 import { Subtitle } from "@/components/subtitle";
 import { PhotoReel } from "@/components/photo-reel";
+import { SponsorReel } from "@/components/sponsor-reel";
 import { Section } from "@/components/section";
 
 export default function Home() {
@@ -72,7 +73,7 @@ export default function Home() {
               <br />
               Thousands of coders, designers, and makers.
             </Subtitle>
-            <PhotoReel className="mb-20" />
+            <PhotoReel className="mb-20 mt-20" />
             <Section sectionTitle="What is CodeCamp?" className="mb-20">
               <p className="mb-4">
                 CodeCamp is Southern Utah's oldest and biggest coding, design,
@@ -91,12 +92,6 @@ export default function Home() {
                 computer science and coding. Our newest event, CodeCamp Girl
                 Power is a 24-hour long hackathon specifically for girls and
                 women.
-              </p>
-              <p className="mb-4">
-                Our event has grown over the years from only a handful of people
-                into hundreds participating yearly. Everyone from K-12 to
-                industry professionals has been spotted at CodeCamp, forming an
-                invaluable community of hackers across Southern Utah.
               </p>
               <p>
                 <a href="#">
@@ -188,7 +183,111 @@ export default function Home() {
                 </a>
               </p>
             </Section>
-            <PhotoReel className="mb-20" />
+            <Subtitle>Thank you to our generous sponsors!</Subtitle>
+            <SponsorReel className="mb-10" />
+            <div className="flex justify-center">
+              <Button href="#" className="mr-2">
+                See all sponsors
+              </Button>
+              <Button href="#">Become a sponsor</Button>
+            </div>
+            <Section sectionTitle="Where and when?" className="my-20">
+              <p className="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+                amet ornare nisl ullamcorper.
+              </p>
+              <p>
+                <a href="#">
+                  See the full rules
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </Section>
+            <Section sectionTitle="Who can participate?" className="mb-20">
+              <p className="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+                amet ornare nisl ullamcorper.
+              </p>
+              <p className="mb-4">
+                Aliquam ut tortor nec lorem pellentesque elementum. Nunc sed
+                risus pretium, euismod dolor ut, dictum quam. Orci varius
+                natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.
+              </p>
+              <p className="mb-4">
+                Fusce id ipsum at erat vulputate finibus. Suspendisse potenti.
+                Donec quam lorem, bibendum sed lacus et, condimentum tincidunt
+                lorem. Vestibulum et turpis at quam fringilla bibendum at at
+                leo.
+              </p>
+              <p>
+                <a href="#">
+                  See the full rules
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </Section>
+            <Section sectionTitle="Who can participate?" className="mb-20">
+              <p className="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                euismod eu lorem et ultricies. In porta lorem at dui semper, sit
+                amet ornare nisl ullamcorper.
+              </p>
+              <p className="mb-4">
+                Aliquam ut tortor nec lorem pellentesque elementum. Nunc sed
+                risus pretium, euismod dolor ut, dictum quam. Orci varius
+                natoque penatibus et magnis dis parturient montes, nascetur
+                ridiculus mus.
+              </p>
+              <p className="mb-4">
+                Fusce id ipsum at erat vulputate finibus. Suspendisse potenti.
+                Donec quam lorem, bibendum sed lacus et, condimentum tincidunt
+                lorem. Vestibulum et turpis at quam fringilla bibendum at at
+                leo.
+              </p>
+              <p>
+                <a href="#">
+                  See the full rules
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="w-5 h-5"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </p>
+            </Section>
+            <PhotoReel className="mb-20 mt-20" />
           </div>
         </div>
       </div>
