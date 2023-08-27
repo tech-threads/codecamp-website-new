@@ -6,7 +6,7 @@ export const Video = ({ videoId, className }) => {
   return (
     <div className={`w-[80%] relative mx-auto ${className} shadow-2xl`}>
       {isLoaded && (
-        <div className="absolute inset-1 bg-gradient-to-r from-cyan-600 to-pink-600 rounded-2xl blur-xl opacity-25"></div>
+        <div className="absolute inset-1 bg-gradient-to-r from-pink-600 to-cyan-600 rounded-2xl blur-xl opacity-25"></div>
       )}
       <div className="relative ring-1 ring-gray-900/5 rounded-2xl leading-none flex items-top justify-start space-x-6">
         <iframe
