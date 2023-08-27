@@ -10,10 +10,10 @@ import { Nav } from "@/components/nav";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex bg-black text-white">
+    <div className="min-h-screen flex bg-[#0f0f10] text-white">
       <div className="flex w-full">
         <div className="inset-0 flex justify-center sm:px-8 mx-auto">
-          <div className="w-[1164px] mx-24 pt-8 px-8 bg-zinc-900 ring-1 ring-zinc-300/20 pb-40">
+          <div className="w-[1164px] mx-24 pt-8 px-8 bg-zinc-900 ring-1 ring-zinc-300/10 pb-40">
             <TimerBanner targetDate={new Date("November 18, 2023")} />
             <Nav />
             <Hero
