@@ -57,7 +57,9 @@ export const Nav = () => {
         </a>
       </nav>
       <div className="flex justify-center h-9">
-        <Button href="#">Get tickets</Button>
+        <Button href="https://www.eventbrite.com/e/southern-utah-code-camp-2023-tickets-636694499387?aff=ebdssbdestsearch">
+          Get tickets
+        </Button>
       </div>
     </header>
   );

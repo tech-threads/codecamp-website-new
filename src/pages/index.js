@@ -17,7 +17,7 @@ export default function Home() {
       <Hero
         headline="CodeCamp is Southern Utah's biggest coding event"
         subtitle="A hackathon experience for all ages, skill-levels, and experiences. Bring a laptop, an idea, and most importantly — bring your genius."
-        ctaLink="asdfasdF"
+        ctaLink="https://www.eventbrite.com/e/southern-utah-code-camp-2023-tickets-636694499387?aff=ebdssbdestsearch"
         ctaText="Get tickets"
       />
       <Video videoId="PdEHEwCyHXk" className="mb-20" />
