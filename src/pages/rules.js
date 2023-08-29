@@ -34,7 +34,7 @@ export default function Rules() {
           you bring a sleeping bag and pillow, and plan to take a nap at some
           point during the event.
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <LinkCard
             label="Directions"
             href="#"
@@ -129,7 +129,7 @@ export default function Rules() {
           We reserve the right to remove anyone violating these rules from the
           event at any time.
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <LinkCard
             label="Code of Conduct"
             href="#"
@@ -173,7 +173,7 @@ export default function Rules() {
           If your chaperone is not able to stay for the entire event, you will
           not be able to stay overnight and may need to leave early.
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <LinkCard
             label="Under 18 Waiver"
             href="#"
@@ -230,7 +230,7 @@ export default function Rules() {
           This year&apos;s Preflight Meeting is being held on November XXth at
           7:00pm in the Vasion gym — the same venue as the main event.
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <LinkCard
             label="Add to calendar"
             href="#"
@@ -373,7 +373,7 @@ export default function Rules() {
           we can use and photos or videos taken during the event to promote
           CodeCamp.
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row mt-10">
           <LinkCard
             label="Media Release"
             href="#"

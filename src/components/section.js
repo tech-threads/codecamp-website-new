@@ -23,12 +23,11 @@ export const Section = ({ sectionTitle, children, className = "" }) => {
   };
 
   return (
-    // <div className={`${className} w-3/4 mx-auto`}>
     <div
-      className={`${className} w-3/4 mx-auto border border-zinc-700/80 border-solid p-10 rounded-3xl bg-zinc-800/40 hover:border-zinc-600 transition-all ease-in-out hover:bg-zinc-700/20 hover:shadow-xl`}
+      className={`${className} mx-auto ring-1 ring-zinc-700/50 border-solid p-20 rounded-3xl bg-zinc-800/30 hover:ring-zinc-700 transition-all ease-in-out hover:bg-zinc-700/20 hover:shadow-xl`}
     >
       <a id={anchorId}>
-        <h2 className="flex-1 font-bold text-white mb-4 text-2xl relative group flex flex-row items-center">
+        <h2 className="flex-1 font-medium text-white mb-4 text-3xl relative group flex flex-row items-center">
           {sectionTitle}
           <svg
             onClick={handleCopyClick}
