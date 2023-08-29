@@ -20,7 +20,7 @@ export default function Sponsors() {
         ctaLink="asdfasdF"
         ctaText="Help sponsor CodeCamp"
       />
-      <Video videoId="PdEHEwCyHXk" className="mb-20" />
+      <PhotoReel className="mb-20 mt-20" />
     </PageLayout>
   );
 }

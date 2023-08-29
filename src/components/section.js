@@ -1,8 +1,8 @@
 export const Section = ({ sectionTitle, children, className = "" }) => (
-  <div className={`flex flex-row ${className}`}>
-    <h2 className="w-[35%] font-medium text-2xl text-cyan-400">
+  <div className={`${className} w-3/4 mx-auto`}>
+    <h2 className="flex-1 font-bold text-cyan-400 mb-4 text-lg">
       {sectionTitle}
     </h2>
-    <div className="flex-1">{children}</div>
+    <div className="flex-1 text-lg text-zinc-200">{children}</div>
   </div>
 );
