@@ -27,7 +27,7 @@ export const Section = ({ sectionTitle, children, className = "" }) => {
       className={`${className} mx-auto ring-1 ring-zinc-700/50 border-solid p-20 rounded-3xl bg-zinc-800/30 hover:ring-zinc-700 duration-300 transition-all ease-in-out hover:bg-zinc-700/20 hover:shadow-xl`}
     >
       <a id={anchorId}>
-        <h2 className="flex-1 font-medium text-white mb-8 text-2xl relative group flex flex-row items-center">
+        <h2 className="flex-1 font-medium text-white mb-8 text-xl relative group flex flex-row items-center">
           {sectionTitle}
           <svg
             onClick={handleCopyClick}
@@ -53,7 +53,7 @@ export const Section = ({ sectionTitle, children, className = "" }) => {
           )}
         </h2>
       </a>
-      <div className="flex-1 text-lg text-zinc-400">{children}</div>
+      <div className="flex-1 text-base text-zinc-400">{children}</div>
     </div>
   );
 };

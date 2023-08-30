@@ -6,7 +6,7 @@ export const LinkCard = ({ label, href, icon, className }) => (
     <div className="group-hover:ring-cyan-300 group-hover:text-cyan-300 duration-300 transition ease-in-out flex items-center justify-center rounded-full bg-zinc-900/50 p-2 group-hover:bg-zinc-800 ring-zinc-700/80 ring-1">
       {icon}
     </div>
-    <span className="transition-all duration-300 ease-in-out	text-base font-medium text-white ml-2">
+    <span className="transition-all duration-300 ease-in-out text-base font-medium text-white ml-2">
       {label}
     </span>
   </a>
