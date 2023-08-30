@@ -14,7 +14,7 @@ export const Nav = () => {
   const router = useRouter();
 
   return (
-    <header className="flex justify-center items-center">
+    <header className="flex justify-center items-center pt-10">
       <div className="flex justify-center h-9" style={{ marginRight: -44 }}>
         <Link href="/">
           <Image src={logo} alt="Logo" height={32} />

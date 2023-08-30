@@ -35,7 +35,7 @@ export default function Rules() {
       </GradientSectionFull>
       <GradientSection>
         <NumberHeader className="mt-10" label="Basics" sectionNumber="00" />
-        <Wrapper>
+        <Wrapper grid={false}>
           <Section sectionTitle="Time and Date" className="mb-10 mt-1">
             <div className="mb-4">
               The main CodeCamp event lasts 24 hours straight, from 8:00am on
@@ -190,7 +190,7 @@ export default function Rules() {
           label="Code of Conduct"
           sectionNumber="01"
         />
-        <Wrapper>
+        <Wrapper grid={false}>
           <Section sectionTitle="Conduct" className="mb-10 mt-1">
             <div className="mb-4">
               We try our best to make CodeCamp a safe, welcoming, and fun
@@ -311,7 +311,7 @@ export default function Rules() {
           label="Event Rules"
           sectionNumber="02"
         />
-        <Wrapper>
+        <Wrapper grid={false}>
           <Section sectionTitle="24 Hours" className="mb-10 mt-1">
             <div className="mb-4">
               Each team has exactly 24 hours to develop their project during
@@ -391,7 +391,7 @@ export default function Rules() {
           label="Getting Ready"
           sectionNumber="03"
         />
-        <Wrapper>
+        <Wrapper grid={false}>
           <Section sectionTitle="Team prep" className="mb-10 mt-1">
             <div className="mb-4">
               We encourage you to come prepared with a team and a project idea.
@@ -442,7 +442,7 @@ export default function Rules() {
           label="Odds and Ends"
           sectionNumber="04"
         />
-        <Wrapper>
+        <Wrapper grid={false}>
           <Section
             sectionTitle="Heads up about noise and sensory"
             className="mb-10 mt-1"
