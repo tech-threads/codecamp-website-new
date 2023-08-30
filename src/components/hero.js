@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { BigButton } from "@/components/big-button";
+import { Button } from "@/components/button";
 import { Subtitle } from "@/components/subtitle";
 
 export const Hero = ({ headline, subtitle, ctaLink, ctaText }) => {
@@ -31,7 +31,7 @@ export const Hero = ({ headline, subtitle, ctaLink, ctaText }) => {
       </h1>
       <Subtitle>{subtitle}</Subtitle>
 
-      <BigButton href={ctaLink}>{ctaText}</BigButton>
+      <Button href={ctaLink}>{ctaText}</Button>
     </div>
   );
 };
