@@ -22,35 +22,35 @@ export const Nav = () => {
       </div>
       <nav className="flex rounded-full bg-zinc-900 px-3 text-sm font-medium text-zinc-200 ring-1 ring-white/10 mx-auto py-1">
         <Link
-          className="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400 h-9"
+          className="relative block px-3 py-2 transition hover:text-zinc-400 h-9 ease-in-out"
           href="/"
         >
           About
           {router.pathname === "/" && <ActiveIndicator />}
         </Link>
         <Link
-          className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
+          className="relative block px-3 py-2 transition hover:text-zinc-400 h-9 ease-in-out"
           href="/rules"
         >
           Rules
           {router.pathname === "/rules" && <ActiveIndicator />}
         </Link>
         <Link
-          className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
+          className="relative block px-3 py-2 transition hover:text-zinc-400 h-9 ease-in-out"
           href="/volunteers"
         >
           Volunteers
           {router.pathname === "/volunteers" && <ActiveIndicator />}
         </Link>
         <Link
-          className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
+          className="relative block px-3 py-2 transition hover:text-zinc-400 h-9 ease-in-out"
           href="/sponsors"
         >
           Sponsors
           {router.pathname === "/sponsors" && <ActiveIndicator />}
         </Link>
         <a
-          className="relative block px-3 py-2 transition hover:text-teal-400 h-9"
+          className="relative block px-3 py-2 transition hover:text-zinc-400 h-9 ease-in-out"
           href="#"
         >
           Blog
