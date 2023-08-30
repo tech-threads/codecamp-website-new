@@ -29,8 +29,8 @@ export default function Rules() {
         />
       </Wrapper>
       <GradientSectionFull>
-        <Wrapper>
-          <Video videoId="2HbVD1lqrus" className="mb-20" />
+        <Wrapper className="pb-20">
+          <Video videoId="2HbVD1lqrus" />
         </Wrapper>
       </GradientSectionFull>
       <GradientSection>
