@@ -4,7 +4,7 @@ import { Subtitle } from "@/components/subtitle";
 
 export const Hero = ({ headline, subtitle, ctaLink, ctaText }) => {
   return (
-    <div className="px-20 flex flex-col items-center justify-center pt-40 pb-20">
+    <div className="px-20 flex flex-col items-center justify-center py-20">
       <h1 className="text-5xl leading-tight font-medium mb-4 text-center font-mono">
         {headline.split(" ").map((word, index, arr) => (
           <Fragment key={index}>
