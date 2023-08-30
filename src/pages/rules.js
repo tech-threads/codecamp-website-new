@@ -341,6 +341,11 @@ export default function Rules() {
               written on-site.
             </div>
           </Section>
+          <Section sectionTitle="Team size" className="mb-10 mt-1">
+            <div className="mb-4">
+              You can compete on your own or form a team of up to 4 people.
+            </div>
+          </Section>
           <Section sectionTitle="Open source libraries" className="mb-10">
             <div className="mb-4">
               Open source libraries, frameworks, and tools are allowed as long
