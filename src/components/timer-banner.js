@@ -27,8 +27,8 @@ export const TimerBanner = ({ targetDate }) => {
   });
 
   return (
-    <div className="text-center relative -mx-8 -mt-8 mb-[100px] font-mono text-sm font-medium">
-      <div className=" bg-zinc-900 flex flex-row items-center z-20 w-full py-4 px-8 absolute">
+    <div className="text-center relative -mt-8 mb-[100px] font-mono text-sm font-medium">
+      <div className="flex flex-row items-center z-20 w-full py-4 absolute">
         <span className="flex flex-1 opacity-70">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export const TimerBanner = ({ targetDate }) => {
         </span>
       </div>
 
-      <svg
+      {/* <svg
         viewBox="0 0 1140 34"
         fill="none"
         className="absolute bottom-[-67px] left-1/2 ml-[-553px] w-[1130px] z-10"
@@ -101,7 +101,7 @@ export const TimerBanner = ({ targetDate }) => {
             ></feGaussianBlur>
           </filter>
         </defs>
-      </svg>
+      </svg> */}
     </div>
   );
 };
