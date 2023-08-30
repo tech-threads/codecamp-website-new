@@ -29,7 +29,7 @@ export const TimerBanner = ({ targetDate }) => {
   });
 
   return (
-    <div className="border-b border-zinc-800/70 border-solid bg[#121213] text-center relative -mt-8 font-mono text-sm">
+    <div className="border-b border-zinc-800/70 border-solid bg[#121213] text-center relative font-mono text-sm">
       <Wrapper grid={false} className="flex flex-row items-center z-20 py-2">
         <span className="flex flex-1 opacity-60 font-medium">
           <svg

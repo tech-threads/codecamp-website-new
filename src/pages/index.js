@@ -37,10 +37,9 @@ export default function Home() {
           </Subtitle>
         </Wrapper>
       </GradientSectionFull>
-      <PhotoReel className="mb-20 mt-20" />
       <GradientSection>
-        <Wrapper>
-          <Section sectionTitle="What is CodeCamp?" className="mb-20">
+        <Wrapper className="py-20">
+          <Section sectionTitle="What is CodeCamp?">
             <p className="mb-4">
               CodeCamp is Southern Utah&apos;s oldest and biggest coding,
               design, and maker event. For over 14 years running, we&apos;ve
@@ -76,6 +75,7 @@ export default function Home() {
               </a>
             </p>
           </Section>
+          <PhotoReel className="mb-20 mt-20" />
           <Section sectionTitle="What are the rules?" className="mb-20">
             <p className="mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -110,7 +110,8 @@ export default function Home() {
               </a>
             </p>
           </Section>
-          <Section sectionTitle="Who can participate?" className="mb-20">
+          <PhotoReel className="mb-20 mt-20" />
+          <Section sectionTitle="Who can participate?">
             <p className="mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               euismod eu lorem et ultricies. In porta lorem at dui semper, sit
