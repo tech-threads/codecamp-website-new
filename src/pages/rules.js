@@ -19,7 +19,7 @@ export default function Rules() {
         <Nav />
         <Hero
           headline="CodeCamp Rules & Guidelines"
-          subtitle="Learn how to have a safe, successful, and fun CodeCamp experience."
+          subtitle="Learn how to have a safe, successful, and fun CodeCamp."
           ctaLink="asdfasdF"
           ctaText="Get tickets"
         />
