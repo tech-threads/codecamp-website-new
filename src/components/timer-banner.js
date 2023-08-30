@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import { Wrapper } from "@/components/wrapper";
+
 export const TimerBanner = ({ targetDate }) => {
   const calculateTimeLeft = () => {
     let difference = +new Date(targetDate) - +new Date();
@@ -27,9 +29,9 @@ export const TimerBanner = ({ targetDate }) => {
   });
 
   return (
-    <div className="text-center relative -mt-8 mb-[100px] font-mono text-sm font-medium">
-      <div className="flex flex-row items-center z-20 w-full py-4 absolute">
-        <span className="flex flex-1 opacity-70">
+    <div className="border-b border-zinc-800/70 border-solid bg-zinc-900/50 text-center relative -mt-8 mb-10 font-mono text-sm">
+      <Wrapper className="flex flex-row items-center z-20 py-2">
+        <span className="flex flex-1 opacity-60 font-medium">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
@@ -40,13 +42,12 @@ export const TimerBanner = ({ targetDate }) => {
           </svg>
           Registration open for CodeCamp 2023
         </span>
-        <span className="opacity-70">
+        <span className="opacity-60 font-bold">
           {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m{" "}
           {timeLeft.seconds}s
         </span>
-      </div>
 
-      {/* <svg
+        {/* <svg
         viewBox="0 0 1140 34"
         fill="none"
         className="absolute bottom-[-67px] left-1/2 ml-[-553px] w-[1130px] z-10"
@@ -102,6 +103,7 @@ export const TimerBanner = ({ targetDate }) => {
           </filter>
         </defs>
       </svg> */}
+      </Wrapper>
     </div>
   );
 };

@@ -16,7 +16,7 @@ import { Layout } from "@/components/layout";
 export default function Home() {
   return (
     <Layout>
-      {/* <TimerBanner targetDate={new Date("November 18, 2023")} /> */}
+      <TimerBanner targetDate={new Date("November 18, 2023")} />
       <Wrapper>
         <Nav />
         <Hero

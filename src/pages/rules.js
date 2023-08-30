@@ -18,7 +18,7 @@ import { NumberHeader } from "@/components/number-header";
 export default function Rules() {
   return (
     <Layout>
-      {/* <TimerBanner targetDate={new Date("November 18, 2023")} /> */}
+      <TimerBanner targetDate={new Date("November 18, 2023")} />
       <Wrapper>
         <Nav />
         <Hero
