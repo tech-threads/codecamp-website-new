@@ -1,6 +1,6 @@
 export const Button = ({ className, href, children }) => (
   <a
-    className={`flex rounded-full bg-cyan-800/90 px-4 text-sm font-medium text-zinc-200 ring-cyan/10 relative h-[46px] items-center transition hover:text-cyan-400 ${className}`}
+    className={`flex rounded-full bg-cyan-700 px-5 text-sm font-medium text-zinc-200 ring-1 ring-cyan-600/90 relative h-[46px] items-center transition hover:text-cyan-400 shadow-sm ${className}`}
     href={href}
   >
     {children}
