@@ -3,7 +3,7 @@ import { useState } from "react";
 export const Section = ({ sectionTitle, children, className = "" }) => {
   const [copySuccess, setCopySuccess] = useState("");
 
-  const anchorId = sectionTitle.toLowerCase().replace(" ", "-");
+  const anchorId = sectionTitle.toLowerCase().replaceAll(" ", "-");
 
   const handleCopyClick = (event) => {
     event.stopPropagation();

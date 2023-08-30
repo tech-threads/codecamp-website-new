@@ -10,6 +10,10 @@
   }
 }
 
+html {
+  scroll-padding-top: 10rem;
+}
+
 body {
   color: white;
   background: black;

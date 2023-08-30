@@ -20,8 +20,8 @@ export default function Rules() {
         <Hero
           headline="CodeCamp Rules & Guidelines"
           subtitle="Learn how to have a safe, successful, and fun CodeCamp."
-          ctaLink="asdfasdF"
-          ctaText="Get tickets"
+          ctaLink="#time-and-date"
+          ctaText="Read all rules"
         />
       </Wrapper>
       <GradientSectionFull>
