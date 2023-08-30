@@ -36,7 +36,7 @@ export default function Rules() {
       <GradientSection>
         <NumberHeader className="mt-10" label="Basics" sectionNumber="00" />
         <Wrapper>
-          <Section sectionTitle="Time and Date" className="mb-10">
+          <Section sectionTitle="Time and Date" className="mb-10 mt-1">
             <div className="mb-4">
               The main CodeCamp event lasts 24 hours straight, from 8:00am on
               Friday to 8:00am on Saturday. We also host a day camp for K-12
@@ -191,7 +191,7 @@ export default function Rules() {
           sectionNumber="01"
         />
         <Wrapper>
-          <Section sectionTitle="Conduct" className="mb-10">
+          <Section sectionTitle="Conduct" className="mb-10 mt-1">
             <div className="mb-4">
               We try our best to make CodeCamp a safe, welcoming, and fun
               environment for everyone involved. We expect all participants to
@@ -312,7 +312,7 @@ export default function Rules() {
           sectionNumber="02"
         />
         <Wrapper>
-          <Section sectionTitle="24 Hours" className="mb-10">
+          <Section sectionTitle="24 Hours" className="mb-10 mt-1">
             <div className="mb-4">
               Each team has exactly 24 hours to develop their project during
               CodeCamp. Throughout the 24-hour period, mentors and staff will be
@@ -392,7 +392,7 @@ export default function Rules() {
           sectionNumber="03"
         />
         <Wrapper>
-          <Section sectionTitle="Team prep" className="mb-10">
+          <Section sectionTitle="Team prep" className="mb-10 mt-1">
             <div className="mb-4">
               We encourage you to come prepared with a team and a project idea.
               You are more than welcome to spend time preparing for the event
@@ -445,7 +445,7 @@ export default function Rules() {
         <Wrapper>
           <Section
             sectionTitle="Heads up about noise and sensory"
-            className="mb-10"
+            className="mb-10 mt-1"
           >
             <div className="mb-4">
               CodeCamp is a busy, noisy, and crowded event. If you have any

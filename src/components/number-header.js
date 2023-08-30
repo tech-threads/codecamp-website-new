@@ -2,7 +2,7 @@ import { Wrapper } from "@/components/wrapper";
 
 export const NumberHeader = ({ className, label, sectionNumber }) => (
   <div
-    className={`bg-[#0c0c0ddd] backdrop-blur py-10 mb-1 sticky z-50 top-0 ${className}`}
+    className={`bg-[#0c0c0ddd] backdrop-blur py-10 sticky z-50 top-0 ${className}`}
   >
     <Wrapper className="flex flex-row items-center ">
       <span className="font-mono bg-cyan-900/60 ring-1 ring-cyan-800 text-cyan-300 font-medium rounded-full w-8 h-8 aspect-square flex justify-center items-center">
