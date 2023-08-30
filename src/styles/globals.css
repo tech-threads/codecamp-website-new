@@ -96,3 +96,10 @@ p a:hover svg {
   margin-right: -3px
 }
 
+.gradient-section {
+  background: radial-gradient(150% 150% at 50% 20%,transparent 40%,#0e7490 100%,#fff 0);
+}
+
+.gradient-section-full {
+  background: radial-gradient(140% 107.13% at 50% 10%,transparent 37.41%,#0e7490 69.27%,#fff 100%);
+}
