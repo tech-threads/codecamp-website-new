@@ -1,19 +1,15 @@
 import { Hero } from "@/components/hero";
-import { Button } from "@/components/button";
 import { Video } from "@/components/video";
 import { TimerBanner } from "@/components/timer-banner";
-import { Subtitle } from "@/components/subtitle";
-import { PhotoReel } from "@/components/photo-reel";
-import { SponsorReel } from "@/components/sponsor-reel";
 import { Section } from "@/components/section";
 import { Nav } from "@/components/nav";
-import { PageLayout } from "@/components/page-layout";
 import { LinkCard } from "@/components/link-card";
 import { GradientSection } from "@/components/gradient-section";
 import { GradientSectionFull } from "@/components/gradient-section-full";
 import { Wrapper } from "@/components/wrapper";
 import { Layout } from "@/components/layout";
 import { NumberHeader } from "@/components/number-header";
+import { Footer } from "@/components/footer";
 
 export default function Rules() {
   return (
@@ -421,7 +417,7 @@ export default function Rules() {
               bring your own chair.
             </div>
           </Section>
-          <Section sectionTitle="Bring something to nap with" className="mb-10">
+          <Section sectionTitle="Bring something to nap with" className="mb-20">
             <div className="mb-4">
               If you are super hardcore and plan on staying up for the entire 24
               hours successfully, you can ignore this section.
@@ -445,7 +441,7 @@ export default function Rules() {
         <Wrapper grid={false}>
           <Section
             sectionTitle="Heads up about noise and sensory"
-            className="mb-10 mt-1"
+            className="mb-20 mt-1"
           >
             <div className="mb-4">
               CodeCamp is a busy, noisy, and crowded event. If you have any
@@ -502,6 +498,9 @@ export default function Rules() {
           </Section>
         </Wrapper>
       </GradientSection>
+      <Wrapper grid={false} className="py-20">
+        <Footer />
+      </Wrapper>
     </Layout>
   );
 }

@@ -7,7 +7,6 @@ import { PhotoReel } from "@/components/photo-reel";
 import { SponsorReel } from "@/components/sponsor-reel";
 import { Section } from "@/components/section";
 import { Nav } from "@/components/nav";
-import { PageLayout } from "@/components/page-layout";
 import { GradientSection } from "@/components/gradient-section";
 import { GradientSectionFull } from "@/components/gradient-section-full";
 import { Wrapper } from "@/components/wrapper";
