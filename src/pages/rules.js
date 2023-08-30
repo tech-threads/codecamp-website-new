@@ -441,7 +441,7 @@ export default function Rules() {
         <Wrapper grid={false}>
           <Section
             sectionTitle="Heads up about noise and sensory"
-            className="mb-20 mt-1"
+            className="mb-10 mt-1"
           >
             <div className="mb-4">
               CodeCamp is a busy, noisy, and crowded event. If you have any
