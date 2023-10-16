@@ -42,7 +42,7 @@ export const TimerBanner = ({ targetDate }) => {
           </svg>
           Registration open for CodeCamp 2023
         </span>
-        <span className="opacity-60 font-bold">
+        <span className="opacity-60 font-bold" suppressHydrationWarning>
           {timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m{" "}
           {timeLeft.seconds}s
         </span>
