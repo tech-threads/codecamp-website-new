@@ -316,6 +316,12 @@ export default function Rules() {
               project must be done during this 24 hour period.
             </div>
             <div className="mb-4">
+              You are not required to stay for all 24 hours straight, but if you
+              want to be judged you will need to be present in the morning when
+              judging starts. If you are not present, you will not be eligible
+              to be judged.
+            </div>
+            <div className="mb-4">
               <em>This does not apply to the Day Camp division.</em>
             </div>
           </Section>
@@ -362,7 +368,7 @@ export default function Rules() {
               etc.) in your project.
             </div>
           </Section>
-          <Section sectionTitle="Code ownership" className="mb-20">
+          <Section sectionTitle="Code ownership" className="mb-10">
             <div className="mb-4">
               The code you write is yours. If you intend to share it after the
               competition, you can pick whatever license you love. We encourage
@@ -370,19 +376,14 @@ export default function Rules() {
               you. If you want to start a business based on it, awesome.
             </div>
           </Section>
-          {/* <Section sectionTitle="AI tools" className="mt-10 mb-20">
-            <div className="mb-4">ASDF</div>
-          </Section>
-          
-          <Section sectionTitle="Web services and APIs" className="mb-20">
+          <Section sectionTitle="AI tools" className="mb-20">
             <div className="mb-4">
-              We encourage use of third-party web services and their APIs (e.g.
-              Twitter, Flickr, Google maps, Facebook, OpenID). Almost everyone
-              loves mashups. Again, make sure to update your team profile with
-              what services you use.
+              Use of generative AI for any part of your project is allowed and
+              welcomed! This includes using tools like GitHub Copilot, ChatGPT,
+              Dall-E, etc. Many professionals in industry use these tools to
+              great effect, and we want to encourage you to do the same.
             </div>
           </Section>
-           */}
         </Wrapper>
       </GradientSection>
 

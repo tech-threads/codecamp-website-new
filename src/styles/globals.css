@@ -88,3 +88,7 @@ p a:hover svg {
 .gradient-section-full {
   background: radial-gradient(140% 107.13% at 50% 10%,transparent 37.41%,#0e7490 69.27%,#fff 100%);
 }
+
+.hs-form {
+  color: white;
+}
