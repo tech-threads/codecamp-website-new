@@ -28,12 +28,6 @@ export default function Home() {
       <GradientSectionFull>
         <Wrapper>
           <Video videoId="PdEHEwCyHXk" className="mb-20" />
-          <Subtitle className="mb-[80px]">
-            <strike className="opacity-50">12</strike>,{" "}
-            <strike className="opacity-80">13</strike>, 14 years running.
-            <br />
-            Thousands of coders, designers, and makers.
-          </Subtitle>
         </Wrapper>
       </GradientSectionFull>
       <GradientSection>
