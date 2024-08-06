@@ -69,24 +69,24 @@ export default function Home() {
             </p>
           </Section>
           <PhotoReel className="mb-20 mt-20" />
-          <Section sectionTitle="What are the rules?" className="mb-20">
+          <Section sectionTitle="What are the rules?">
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              euismod eu lorem et ultricies. In porta lorem at dui semper, sit
-              amet ornare nisl ullamcorper.
+              To ensure a fair and fun competition, please review the following key rules and guidelines. For the full set of rules, visit our <a href="/rules">Rules page</a>.
             </p>
-            <p className="mb-4">
-              Aliquam ut tortor nec lorem pellentesque elementum. Nunc sed risus
-              pretium, euismod dolor ut, dictum quam. Orci varius natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p className="mb-4">
-              Fusce id ipsum at erat vulputate finibus. Suspendisse potenti.
-              Donec quam lorem, bibendum sed lacus et, condimentum tincidunt
-              lorem. Vestibulum et turpis at quam fringilla bibendum at at leo.
-            </p>
+            <ul className="mb-4">
+              <li><strong>Registration:</strong> Register early to guarantee your team’s spot and receive a T-shirt (if available). Teams consist of 1 to 4 members, and if you're an individual, attending pre-contest meetings is recommended for team placement.</li>
+              <li><strong>Teams and Categories:</strong> Teams compete in divisions based on the highest level of experience among members, from Rookie to Industry. Categories include App, Game, Maker, and several Rookie-specific options. We’ll help determine the best fit for your team.</li>
+              <li><strong>24-Hour Rule:</strong> Teams have 24 hours to develop their projects. Work must be completed at the venue, though planning and discussions are allowed beforehand. Off-site work is discouraged.</li>
+              <li><strong>Kickoff Meetings:</strong> Attend the pre-contest kickoff meeting for valuable tips, team formation, and networking. Pizza and drinks are provided.</li>
+              <li><strong>Open Source & 3rd Party:</strong> Use public libraries, plugins, and free assets. Paid or secret libraries are not allowed. Update your profile with any third-party services or APIs used.</li>
+              <li><strong>Web Services:</strong> Utilize third-party APIs and services, but ensure they are acknowledged on your team profile.</li>
+              <li><strong>Ownership and Open Source:</strong> Your code is yours to license and share as you choose. We encourage open-sourcing but it’s not mandatory.</li>
+              <li><strong>Judging:</strong> Applications will be evaluated on technical expertise, completeness, aesthetics, commercial viability (excluding Rookie Kit), and novelty/innovation. Provide devices for mobile apps or a URL for web apps.</li>
+              <li><strong>Under 18?</strong> A parent or guardian waiver is required. A responsible adult over 21 must accompany any participants under 18.</li>
+              <li><strong>Miscellany:</strong> Adhere to all laws and treat animals kindly. For additional details, check our FAQ page.</li>
+            </ul>
             <p>
-              <a href="#">
+              <a href="/rules">
                 See the full rules
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -106,19 +106,17 @@ export default function Home() {
           <PhotoReel className="mb-20 mt-20" />
           <Section sectionTitle="Who can participate?">
             <p className="mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              euismod eu lorem et ultricies. In porta lorem at dui semper, sit
-              amet ornare nisl ullamcorper.
+              We welcome participants of all ages and skill levels! Our CodeCamp event is designed to accommodate everyone from complete beginners to seasoned professionals. Here's a breakdown of our divisions:
             </p>
+            <ul className="mb-4">
+              <li><strong>Day-Camp:</strong> Ideal for younger students (ages 8-17) with no prior coding experience. Participants will use tools like Scratch to create and modify simple games in a fun, supportive environment.</li>
+              <li><strong>Rookie-Kit:</strong> A 24-hour event open to all ages who have little to no coding experience. Each participant receives a premade game starting kit that they can personalize and enhance.</li>
+              <li><strong>Novice:</strong> For any age group with a basic understanding of coding. This 24-hour challenge is perfect for those who have taken a coding class or have a small project in mind that they want to develop.</li>
+              <li><strong>Collegiate:</strong> Designed for individuals with college-level coding experience. During this 24-hour event, participants bring their own project ideas or class assignments and work on them with other skilled coders.</li>
+              <li><strong>Industry:</strong> Tailored for professional coders, this 24-hour segment allows participants to work on side projects, explore new technologies, or develop their passions with other industry experts.</li>
+            </ul>
             <p className="mb-4">
-              Aliquam ut tortor nec lorem pellentesque elementum. Nunc sed risus
-              pretium, euismod dolor ut, dictum quam. Orci varius natoque
-              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </p>
-            <p className="mb-4">
-              Fusce id ipsum at erat vulputate finibus. Suspendisse potenti.
-              Donec quam lorem, bibendum sed lacus et, condimentum tincidunt
-              lorem. Vestibulum et turpis at quam fringilla bibendum at at leo.
+              Whether you’re looking to get started with coding or eager to push the boundaries of your technical skills, there’s a place for you at CodeCamp!
             </p>
             <p>
               <a href="#">
@@ -137,8 +135,7 @@ export default function Home() {
                 </svg>
               </a>
             </p>
-          </Section>
-        </Wrapper>
+          </Section></Wrapper>
       </GradientSection>
       <Subtitle className="mt-20">Thank you to our generous sponsors!</Subtitle>
       <SponsorReel className="mb-10" />
