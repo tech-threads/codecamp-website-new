@@ -135,7 +135,8 @@ export default function Home() {
                 </svg>
               </a>
             </p>
-          </Section></Wrapper>
+          </Section>
+        </Wrapper>
       </GradientSection>
       <Subtitle className="mt-20">Thank you to our generous sponsors!</Subtitle>
       <SponsorReel className="mb-10" />
