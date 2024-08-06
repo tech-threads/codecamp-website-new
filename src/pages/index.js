@@ -11,7 +11,7 @@ import { GradientSection } from "@/components/gradient-section";
 import { GradientSectionFull } from "@/components/gradient-section-full";
 import { Wrapper } from "@/components/wrapper";
 import { Layout } from "@/components/layout";
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
       <Wrapper>
         <Nav />
         <Hero
-          headline="CodeCamp is Southern Utah's biggest coding event"
+          headline="CodeCamp is Southern Utah&apos;s biggest coding event"
           subtitle="A hackathon experience for all ages, skill-levels, and experiences. Bring a laptop, an idea, and most importantly — bring your genius."
           ctaLink="https://www.eventbrite.com/e/southern-utah-code-camp-2023-tickets-636694499387?aff=ebdssbdestsearch"
           ctaText="Get tickets"
@@ -75,7 +75,7 @@ export default function Home() {
               To ensure a fair and fun competition, please review the following key rules and guidelines. For the full set of rules, visit our <Link href="/rules">Rules page</Link>.
             </p>
             <ul className="mb-4">
-              <li><strong>Registration:</strong> Register early to guarantee your team’s spot and receive a T-shirt (if available). Teams consist of 1 to 4 members, and if you're an individual, attending pre-contest meetings is recommended for team placement.</li>
+              <li><strong>Registration:</strong> Register early to guarantee your team’s spot and receive a T-shirt (if available). Teams consist of 1 to 4 members, and if you&apos;re an individual, attending pre-contest meetings is recommended for team placement.</li>
               <li><strong>Teams and Categories:</strong> Teams compete in divisions based on the highest level of experience among members, from Rookie to Industry. Categories include App, Game, Maker, and several Rookie-specific options. We’ll help determine the best fit for your team.</li>
               <li><strong>24-Hour Rule:</strong> Teams have 24 hours to develop their projects. Work must be completed at the venue, though planning and discussions are allowed beforehand. Off-site work is discouraged.</li>
               <li><strong>Kickoff Meetings:</strong> Attend the pre-contest kickoff meeting for valuable tips, team formation, and networking. Pizza and drinks are provided.</li>
@@ -107,7 +107,7 @@ export default function Home() {
           <PhotoReel className="mb-20 mt-20" />
           <Section sectionTitle="Who can participate?">
             <p className="mb-4">
-              We welcome participants of all ages and skill levels! Our CodeCamp event is designed to accommodate everyone from complete beginners to seasoned professionals. Here's a breakdown of our divisions:
+              We welcome participants of all ages and skill levels! Our CodeCamp event is designed to accommodate everyone from complete beginners to seasoned professionals. Here&apos;s a breakdown of our divisions:
             </p>
             <ul className="mb-4">
               <li><strong>Day-Camp:</strong> Ideal for younger students (ages 8-17) with no prior coding experience. Participants will use tools like Scratch to create and modify simple games in a fun, supportive environment.</li>
