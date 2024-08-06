@@ -11,6 +11,7 @@ import { GradientSection } from "@/components/gradient-section";
 import { GradientSectionFull } from "@/components/gradient-section-full";
 import { Wrapper } from "@/components/wrapper";
 import { Layout } from "@/components/layout";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -71,7 +72,7 @@ export default function Home() {
           <PhotoReel className="mb-20 mt-20" />
           <Section sectionTitle="What are the rules?">
             <p className="mb-4">
-              To ensure a fair and fun competition, please review the following key rules and guidelines. For the full set of rules, visit our <a href="/rules">Rules page</a>.
+              To ensure a fair and fun competition, please review the following key rules and guidelines. For the full set of rules, visit our <Link href="/rules">Rules page</Link>.
             </p>
             <ul className="mb-4">
               <li><strong>Registration:</strong> Register early to guarantee your team’s spot and receive a T-shirt (if available). Teams consist of 1 to 4 members, and if you're an individual, attending pre-contest meetings is recommended for team placement.</li>
@@ -86,7 +87,7 @@ export default function Home() {
               <li><strong>Miscellany:</strong> Adhere to all laws and treat animals kindly. For additional details, check our FAQ page.</li>
             </ul>
             <p>
-              <a href="/rules">
+              <Link href="/rules">
                 See the full rules
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +101,7 @@ export default function Home() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </p>
           </Section>
           <PhotoReel className="mb-20 mt-20" />
