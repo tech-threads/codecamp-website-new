@@ -16,13 +16,13 @@ import Link from "next/link"
 export default function Home() {
   return (
     <Layout>
-      <TimerBanner targetDate={new Date("November 18, 2023")} />
+      <TimerBanner targetDate={new Date("November 15, 2024")} />
       <Wrapper>
         <Nav />
         <Hero
           headline="CodeCamp is Southern Utah&apos;s biggest coding event"
           subtitle="A hackathon experience for all ages, skill-levels, and experiences. Bring a laptop, an idea, and most importantly — bring your genius."
-          ctaLink="https://www.eventbrite.com/e/southern-utah-code-camp-2023-tickets-636694499387?aff=ebdssbdestsearch"
+          ctaLink="https://www.eventbrite.com/e/southern-utah-code-camp-2024-tickets-906828948797?aff=ebdssbdestsearch"
           ctaText="Get tickets"
         />
       </Wrapper>
